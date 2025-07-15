@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+body {
+  background-image: url("../img/billy.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+  padding-top: 100px;
+}
+
+#welcome{
+	
+	margin : 50px
+}
+
+#login{
+	
+	margin:43px;
+	color:red;
+}
+
+
+.btn.horror-btn {
+  padding: 12px 30px;
+  font-size: 10px;
+  font-weight: bold;
+  border: 2px solid #8B0000;
+  border-radius: 50px;
+  color: #fff;
+  background: linear-gradient(to right, #330000, #660000);
+  box-shadow: 0 0 15px red;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  margin: 10px;
+}
+
+.btn.horror-btn:hover {
+  background: linear-gradient(to right, #8B0000, #B22222);
+  box-shadow: 0 0 25px crimson;
+  transform: scale(1.08) rotate(-1deg);
+  text-shadow: 0 0 5px #ff0000;
+}
+
